@@ -73,11 +73,11 @@ public class VerifyLoginFunctionality extends Base {
 	@AfterClass
 	public void removeObject() {
 		loginorsinguppage=null;
-	}
-	@AfterTest
-	public void closeBrowser() {
-		driver.close();
-		driver=null;
-		System.gc();
+//	}
+//	@AfterTest
+//	public void closeBrowser() {
+//		driver.close();
+//		driver=null;
+//		System.gc();
 	}
 }
