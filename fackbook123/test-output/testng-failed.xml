@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite1234]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="test.VerifyAttributeValueCreateNewAccount">
+        <methods>
+          <include name="verifyAttributeValueLastName"/>
+          <include name="createPOMObject"/>
+          <include name="verifyAttributeValueFirstName"/>
+          <include name="takeScreenShot"/>
+          <include name="verifyAttributeValueMobileEmailId"/>
+          <include name="removeObject"/>
+          <include name="closeBrowser"/>
+          <include name="openURL"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- test.VerifyAttributeValueCreateNewAccount -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="3" parallel="classes" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="test.VerifyAttributeValueCreateNewAccount">
+        <methods>
+          <include name="verifyAttributeValueLastName"/>
+          <include name="createPOMObject"/>
+          <include name="verifyAttributeValueFirstName"/>
+          <include name="takeScreenShot"/>
+          <include name="verifyAttributeValueMobileEmailId"/>
+          <include name="removeObject"/>
+          <include name="closeBrowser"/>
+          <include name="openURL"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- test.VerifyAttributeValueCreateNewAccount -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+</suite> <!-- Failed suite [Suite1234] -->
